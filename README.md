@@ -33,7 +33,7 @@
 - Azure Networking (DNS settings): Utilized for configuring DNS resolution for the client machine
 
 
-<b>
+
 
 
 To start open server manager in start menu, once it's open you'll click on add roles and features -> next -> next, you should see in server selection, DC-1's private IP address, click next.
