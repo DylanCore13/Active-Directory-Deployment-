@@ -77,12 +77,16 @@ Click on start menu, click administrative tools and go to Active Directory Users
 
 
 
-We'll then create a new employee named Jane Doe with user name "jane_admin", as for the password that's up to you. Go to _ADMINS folder , right click it on new -> User. From there inpiut the information, and make sure you uncheck "user must change password at next logon". Then just click next and finish.
+We'll then create a new employee named Jane Doe with user name "jane_admin", as for the password that's up to you. Go to _ADMINS folder , right click it on new -> User. From there input the information, and make sure you uncheck "user must change password at next logon". Then just click next and finish.
 
 <img width="1109" height="612" alt="image" src="https://github.com/user-attachments/assets/d59a98e2-1dd7-466e-9495-0b8ae32a5946" />
 
 
 <img width="931" height="509" alt="image" src="https://github.com/user-attachments/assets/7daba2fe-eb98-4ddc-84bc-455127f0c887" />
+
+
+So the Jane user/account isn't technically a admin just because we named it that way, we will have to add it to the admin built in security group. So we have to right click Jane's account click on properties -> member of, search domain admins where it says "object names" and click on "check names" box and it'll find DOMAIN ADMINS and then click ok and apply.
+
 
 <img width="1004" height="552" alt="image" src="https://github.com/user-attachments/assets/196ae605-5520-459f-bc68-ecb96633c997" />
 
