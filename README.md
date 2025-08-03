@@ -30,17 +30,7 @@
 
 - Azure Virtual Machines (VMs): The underlying cloud service hosting DC-1 and Client-1.
 
-- Azure Networking (DNS settings): Utilized for configuring DNS resolution for the client machine.
-
-
-
-
-
-
-
-
-
-
+- Azure Networking (DNS settings): Utilized for configuring DNS resolution for the client machine
 
 
 <b>
@@ -51,7 +41,7 @@ To start open server manager in start menu, once it's open you'll click on add r
 <img width="1301" height="681" alt="image" src="https://github.com/user-attachments/assets/bedaff51-5075-47d1-a443-ada09ea0280a" />
 
 
-
+For Server Roles section click on "Active Directory Domain Services" and click on add features. On features and AD DS section just click next and skip. When you get to confirmation section click on "Restart the destination server automatically if required", and fianlly click install.
 
 <img width="1121" height="612" alt="image" src="https://github.com/user-attachments/assets/9d78568f-5847-4145-b313-83cd2b3535f9" />
 
