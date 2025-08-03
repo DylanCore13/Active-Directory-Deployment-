@@ -46,6 +46,9 @@ For Server Roles section click on "Active Directory Domain Services" and click o
 <img width="1121" height="612" alt="image" src="https://github.com/user-attachments/assets/9d78568f-5847-4145-b313-83cd2b3535f9" />
 
 
+
+After install, we are going to promote DC-1 as an acutal domain controller, we are going to configure it using a domain forest. You'll click on top right flag, click it, then click on "promote this server to a domain controller". Then click on add new forest, and you'll name it "mydomain.com", click next. for DSRM password, just type Password1.
+
 <img width="1190" height="672" alt="image" src="https://github.com/user-attachments/assets/e2279c0b-7929-4aca-897a-792752e41b30" />
 
 
