@@ -70,6 +70,9 @@ Now you'll log in as "mydomain.com\(your username you created for DC-1 back in A
 <img width="1094" height="515" alt="image" src="https://github.com/user-attachments/assets/c39df8db-5e33-4cd7-bef0-c054c32fbbc4" />
 
 
+Click on start menu, click administrative tools and go to Active Directory Users and Computers. We'll then create a OU (organizational Unit) by clicking on mydomain.com. Right click it and choose new -> organizational unit, name it "_EMPLOYEES", click ok and create another one "_ADMINS".
+
+
 <img width="919" height="570" alt="image" src="https://github.com/user-attachments/assets/4704338e-e191-4905-9059-33b85b95a223" />
 
 
