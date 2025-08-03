@@ -61,6 +61,12 @@ After that just click next/through until it's time to install, leading to you be
 
 <img width="973" height="433" alt="image" src="https://github.com/user-attachments/assets/645149f0-a05b-4e93-acea-49587fe6a29f" />
 
+
+
+Now you'll log in as "mydomain.com\(your username you created for DC-1 back in Azure)" and then same for the password and log in.
+
+
+
 <img width="1094" height="515" alt="image" src="https://github.com/user-attachments/assets/c39df8db-5e33-4cd7-bef0-c054c32fbbc4" />
 
 
