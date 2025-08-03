@@ -77,6 +77,8 @@ Click on start menu, click administrative tools and go to Active Directory Users
 
 
 
+We'll then create a new employee named Jane Doe with user name "jane_admin", as for the password that's up to you. Go to _ADMINS folder , right click it on new -> User. From there inpiut the information, and make sure you uncheck "user must change password at next logon". Then just click next and finish.
+
 <img width="1109" height="612" alt="image" src="https://github.com/user-attachments/assets/d59a98e2-1dd7-466e-9495-0b8ae32a5946" />
 
 
