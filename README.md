@@ -37,6 +37,8 @@
 
 
 
+To start open server manager in start menu, once it's open you'll click on add roles and features -> next -> next, you should see in server selection, DC-1's private IP address, click next.
+
 <img width="1301" height="681" alt="image" src="https://github.com/user-attachments/assets/bedaff51-5075-47d1-a443-ada09ea0280a" />
 
 
