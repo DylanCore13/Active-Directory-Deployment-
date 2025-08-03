@@ -5,28 +5,34 @@
 
 <h2> Objective </h2>
 
-- This setup guide outlines configuring an Azure-based Active Directory lab by first creating a resource group, virtual network, and a Windows Server 2022 VM named "DC-1" with a static private IP and disabled firewall. Subsequently, a Windows 10 VM named "Client-1" is provisioned within the same network, its DNS settings are configured to point to "DC-1"'s private IP, and connectivity is verified by pinging "DC-1" and checking the DNS settings via ipconfig /all on "Client-1".
+- The main objective is to set up a basic Active Directory domain environment, including a domain controller, a domain administrator account, and a client machine joined to the domain.
 
 <h2>Skills Used</h2>
 
-- Azure Resource Management: Creating and managing resource groups, virtual machines (VMs), and virtual networks (VNets). This involves understanding how to provision and configure resources within the Azure cloud environment.
+- Active Directory Domain Services (AD DS) Installation & Configuration: Installing the AD DS role, promoting a server to a domain controller, and creating a new forest.
 
-- Networking Concepts: Setting up and configuring virtual networks, subnets, and managing IP addressing (specifically assigning static IP addresses). Understanding DNS resolution is also crucial for the client-server communication.
+- Active Directory Users and Computers (ADUC) Management: Creating Organizational Units (OUs), creating new user accounts, and adding users to security groups.
 
-- Windows Server Administration: Installing and configuring the Active Directory Domain Services (AD DS) role on a Windows Server VM, promoting it to a domain controller, and managing its DNS settings.
+- Network Configuration (DNS): Understanding and modifying DNS settings to point clients to the domain controller.
 
-- Client-Server Connectivity: Troubleshooting network connectivity (ping) and verifying network configurations (ipconfig /all) on a client machine.
+- Domain Joining: Joining client machines to an Active Directory domain.
+
+- User Account Management: Logging in with different user accounts (local admin, domain user, domain admin) and understanding their permissions.
+
+- Basic Troubleshooting/Verification: Verifying that a client machine has successfully joined the domain within ADUC.
+
+- Azure Portal Navigation (Implied): Interacting with Azure Portal to modify VM settings like DNS and initiate restarts.
 
 
 <h2>Services Used</h2>
 
-- Azure Virtual Machines (VMs): Used to host both the Windows Server 2022 (DC-1) and Windows 10 (Client-1) operating systems.
+- Active Directory Domain Services (AD DS): The core service for identity and access management.
 
-- Azure Virtual Network (VNet): Provides the isolated and secure network environment for the VMs to communicate.
+- Azure Virtual Machines (VMs): The underlying cloud service hosting DC-1 and Client-1.
 
-- Azure Subnets: Logical divisions within the VNet to organize and isolate resources.
+- Azure Networking (DNS settings): Utilized for configuring DNS resolution for the client machine.
 
-- Azure Network Interface Cards (NICs): Components attached to VMs that enable network connectivity, and where static IP addresses are configured.
+
 
 
 
