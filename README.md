@@ -91,6 +91,9 @@ So the Jane user/account isn't technically a admin just because we named it that
 <img width="1004" height="552" alt="image" src="https://github.com/user-attachments/assets/196ae605-5520-459f-bc68-ecb96633c997" />
 
 
+You'll then logoff and sign in as mydomain.com\jane_admin and the password you chose.
+
+
 <img width="638" height="390" alt="image" src="https://github.com/user-attachments/assets/e0a750ce-cefc-450d-8b57-fe848bd19530" />
 
 
