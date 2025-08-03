@@ -98,6 +98,8 @@ You'll then logoff and sign in as mydomain.com\jane_admin and the password you c
 
 
 
+Finally login into Client-1 VM and open up settings and click on rename this PC (Advnaced) -> computer name -> change, from there type in mydomain.com -> type mydomain.com\jane_admin and the password you chose. It'll then say welcome to mydomain.com and will restart.
+
 <img width="1272" height="662" alt="image" src="https://github.com/user-attachments/assets/e5a5348a-1367-457b-a4d0-c254ab2f11b3" />
 
 
